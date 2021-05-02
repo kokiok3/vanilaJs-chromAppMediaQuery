@@ -1,0 +1,139 @@
+:root {
+  --white: white;
+  --font-3: 3.5rem;
+  --font-2: 2rem;
+  --font-05: 1.2rem;
+}
+
+/* html {
+  height: 100%;
+  width: 100%;
+  margin: 0, 0;
+  padding: 0, 0;
+} */
+body {
+  background-color: #dfe6e9;
+  color: var(--white);
+  text-align: center;
+  margin-top: 22rem;
+}
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+input:focus {
+  outline: none;
+  color: var(--white);
+}
+input::placeholder {
+  color: var(--white);
+}
+li {
+  list-style-type: none;
+}
+button {
+  border: none;
+  background-color: transparent;
+}
+button:hover {
+  cursor: pointer;
+}
+
+/* clock */
+.js-clock > h1 {
+  font-size: 8rem;
+}
+/* save name */
+.saveName {
+  margin-top: -4rem;
+}
+.input {
+  border: none;
+  background-color: transparent;
+  text-align: center;
+  font-size: var(--font-3);
+}
+
+.js-form,
+.js-hfour {
+  display: none;
+  font-size: var(--font-3);
+}
+.showing {
+  display: block;
+}
+
+/* todo */
+.toDoList {
+  margin-top: 50px;
+}
+.js-toDoForm > input {
+  border: none;
+  border-bottom: var(--white) solid 1px;
+  background-color: transparent;
+  text-align: center;
+  font-size: var(--font-2);
+}
+
+.js-toDoList li {
+  font-size: var(--font-2);
+  display: flex;
+  justify-content: center;
+}
+.js-toDoList li button {
+  font-size: var(--font-05);
+}
+
+/* weather */
+
+.weatherNarea {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.js-weather {
+  font-size: var(--font-2);
+}
+.js-area {
+  font-size: var(--font-05);
+}
+
+footer {
+  /* position: sticky; */
+  /* padding-top: 160px; */
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.link {
+  position: absolute;
+  left: 10px;
+}
+.made {
+  position: absolute;
+  right: 10px;
+}
+
+/* random background */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bgImg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 5s linear;
+  object-fit: cover;
+}
