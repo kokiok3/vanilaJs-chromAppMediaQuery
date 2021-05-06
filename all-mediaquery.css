@@ -148,24 +148,48 @@ footer {
 }
 
 @media screen and (max-width: 714px) {
+  html {
+    font-size: 50%;
+  }
+  .weatherNarea {
+    padding: calc(var(--padding) / 2);
+  }
   .js-clock > h1 {
     /* writing-mode: vertical-lr;
     text-orientation: upright; */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: calc(var(--padding) * 2.5);
+    margin-left: var(--padding);
+  }
+  .js-toDoList {
+    padding-top: 5px;
   }
 
   footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 30px;
+    margin-top: -20px;
   }
-  .link {
+  footer span.saying,
+  footer span.made {
+    padding-bottom: 10px;
+  }
+  /* .link {
     position: absolute;
     left: 0;
     bottom: 0;
-    padding: calc(var(--padding) * 2);
+    padding: calc(var(--padding) / 2);
+  } */
+  .link {
+    position: relative;
+    left: -170px;
+    bottom: -170px;
+    padding: calc(var(--padding) / 2);
+  }
+  .made {
+    padding-right: 0;
   }
 }
