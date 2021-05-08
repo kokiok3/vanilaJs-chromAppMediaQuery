@@ -2,7 +2,10 @@ const userLc = "currentuser",
 form = document.querySelector(".form"),
 hfour = document.querySelector(".hfour"),
 input = document.querySelector(".input"),
+<<<<<<< HEAD
 placeHolder = input.placeholder,
+=======
+>>>>>>> c8f1efc4da9fc8cd6d531295e22da84936860acc
 showing = "showing";
 
 function save(name){
