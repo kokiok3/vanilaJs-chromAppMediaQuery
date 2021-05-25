@@ -24,7 +24,7 @@ function genNum(){
 function init(){
     const randomNumber = genNum();
     goodWord(randomNumber);
-    console.log(innerHeight, innerWidth);
+    // console.log(innerHeight, innerWidth);
     
 }
 
