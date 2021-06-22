@@ -168,14 +168,7 @@ footer {
   .weatherNarea {
     padding: calc(var(--padding) / 2);
   }
-  .js-clock > h1 {
-    /* writing-mode: vertical-lr;
-    text-orientation: upright; */
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: var(--padding);
-  }
+
   .js-toDoList {
     padding-top: 5px;
   }
@@ -204,5 +197,16 @@ footer {
   }
   .made {
     padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .js-clock > h1 {
+    /* writing-mode: vertical-lr;
+    text-orientation: upright; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: var(--padding);
   }
 }
