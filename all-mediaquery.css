@@ -223,8 +223,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     /* margin-bottom: 30px; */
-    margin-top: -30px;
-    margin-bottom: 0;
+    /*margin-top: -30px;*/
+    margin-bottom: 25px;
   }
   footer span.saying,
   footer span.made {
