@@ -101,7 +101,7 @@ button:hover {
 
 section {
   position: relative;
-  top: 105px;
+  top: 187px;
 }
 
 /* section */
@@ -138,9 +138,9 @@ section {
 
 .js-toDoList {
   overflow-y: auto;
-  height: 216px;
+  height: 129.6px;
   width: 390px;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 .js-toDoForm > input {
   border: none;
