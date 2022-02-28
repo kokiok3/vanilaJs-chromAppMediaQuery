@@ -8,6 +8,40 @@
   /* size */
   --padding: 24px;
 }
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* button */
+::-webkit-scrollbar-button {
+  background: transparent;
+}
+button{
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+button:focus{
+  outline: none;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #aaa;
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(73, 80, 99, 1);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
 
 * {
   padding: 0;
@@ -66,7 +100,8 @@ button:hover {
 }
 
 section {
-  margin-top: 22rem;
+  position: relative;
+  top: 105px;
 }
 
 /* section */
@@ -101,6 +136,12 @@ section {
 
 /* todo */
 
+.js-toDoList {
+  overflow-y: auto;
+  height: 216px;
+  width: 390px;
+  margin: 0 auto;
+}
 .js-toDoForm > input {
   border: none;
   border-bottom: var(--white) solid 1px;
@@ -108,22 +149,26 @@ section {
   text-align: center;
   font-size: var(--font-2);
 }
-
 .js-toDoList li {
   font-size: var(--font-2);
   display: flex;
   justify-content: center;
+}
+.js-toDoList li span {
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .js-toDoList li button {
   font-size: var(--font-05);
 }
 
 footer {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
-  /* align-items: center;
-  flex-direction: row; */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .link {
