@@ -1,6 +1,7 @@
 <h2> 2021.05 ~ 2021.06 바닐라 자바스크립트 프로젝트 </h2>
 
-![바닐라자바스크립트 메인](https://user-images.githubusercontent.com/84312457/147601525-feed6646-29c3-4376-9e62-531ee143d946.JPG)
+![바닐라자바스크립트 메인](https://user-images.githubusercontent.com/84312457/156029104-b7374ae5-6632-4ec1-ba64-ff4cb36d6dc4.png)
+
 
 <h3> 소개 </h3>
 <p> 노마드코더로 학습하고 기능을 추가한 프로젝트입니다. </p>
